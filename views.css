@@ -1,0 +1,36 @@
+*{
+    color: white;
+    backdrop-filter: blur(5px);
+
+}
+.T{
+    
+    backdrop-filter: blur(5px);
+
+}
+body{
+    background: url(lian.JPG);
+}
+td{
+    color: rgb(250, 250, 4);
+}
+td:hover{
+    background: white;
+    color: black;
+}
+tr{
+    width: 10rem;
+    height: ;
+}
+tr td a{
+    color: rgb(250, 250, 4);
+    font-weight: 500;
+    font-size: 25px;
+}
+tr td a:hover{
+    color:blue;
+    border-radius:6px;
+    background:  rgb(255, 255, 255);
+    text-decoration: none
+}
+

@@ -1,0 +1,59 @@
+<html>
+<head>    
+<title>index</title>
+<link rel="stylesheet" type="text/css" href="record.css">
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body style="backdrop-filter: blur(3px);">
+    <header style=" box-shadow: 5.2px 0 5.2px white;margin-top:20px;"> 
+        <h2 class="logo">World Mission</h2>
+      <nav class="link">
+        <a href="index.html">USER</a>
+        <a href="registration.html"  style="border-color: white;">REGISTER</a>
+        <a href="views.php" style="color:blue;margin-left:10px;"><button type="submit" class="button" style="border-color: white;">ViewDate</a></button>
+        <button class="button" name="submite"  style="border-color: white;">login</button>
+      </nav>
+    </header>
+
+<div class="wrapper" style="backdrop-filter:none;margin-top:100px;">
+    <div class="forms">
+        <h2>Code Marks Here</h2>
+        <form action="connect.php" method="POST">
+            <div class="imputs">
+                <span class="icon"></span>
+               <input id="s" type="text" name="Module_name" required style="color:white;">
+               <label>Module_name</label>          
+            </div>
+
+            <div class="imputs">
+                <span class="icon"></span>
+               <input id="s" type="text" name="Formative_Assessment" required style="color:white;">
+               <label>Formative_Assessment</label>          
+            </div>
+
+            <div class="imputs">
+                <span class="icon"></span>
+               <input id="s"  type="text" name="Summative_Assessment" required style="color:white;">
+               <label>Summative_Assessment</label>          
+            </div>
+
+ <!--           <div class="imputs">
+                <span class="icon"></span>
+               <input type="text" name="Total_Marks" required style="color:white;">
+               <label>Total_Marks</label>          
+            </div> -->
+    
+            <!-- <div class="remember">
+                <label><input type="checkbox">remember me</label>
+                <a href="#">forgot password?</a>
+            </div> -->
+
+          <button type="submite" class="btn" name="SUBMITE">submite</button>
+    <!--  <div class="register">
+            <p>Dont have an account <a href="#" class="reg">Register</a></p>
+        </div> -->
+        </form>
+    </div>
+</div> 
+</body>
+</html>
